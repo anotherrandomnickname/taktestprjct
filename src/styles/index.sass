@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap')
+body 
+    margin: 0 
+    padding: 0
+
+@mixin font($size, $weight)
+  font-family: 'Roboto', sans-serif
+  font-size: $size
+  font-weight: $weight
+
+.text-normal-grey
+  font-style: normal
+  color: #5D637A
+
+.text-normal-black
+  font-style: normal
+  color: #4B5268
+
+.text-normal-white
+  color: #FFFFFF
+
+.section-header
+  text-align: left
+  @include font(14px, normal)
+  width: 100%
+  margin-left: 2em
